@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+jinja2
+sqlalchemy
+python-dotenv
+livekit-api
+livekit-agents
+websockets
+aiohttp

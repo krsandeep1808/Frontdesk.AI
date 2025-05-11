@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salon Supervisor Portal</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Beauty Haven Salon - Supervisor Portal</h1>
+        
+        <div class="sections">
+            <section class="pending-requests">
+                <h2>Pending Requests</h2>
+                <div id="pending-requests-list" class="request-list"></div>
+            </section>
+            
+            <section class="knowledge-base">
+                <h2>Knowledge Base</h2>
+                <div id="knowledge-list" class="knowledge-list"></div>
+            </section>
+        </div>
+        
+        <div id="response-modal" class="modal">
+            <div class="modal-content">
+                <h3>Respond to Request</h3>
+                <div id="request-details"></div>
+                <textarea id="response-text" placeholder="Enter your answer..."></textarea>
+                <div class="modal-actions">
+                    <button id="submit-response">Submit</button>
+                    <button id="cancel-response">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/static/main.js"></script>
+</body>
+</html>
